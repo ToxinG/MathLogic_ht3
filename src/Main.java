@@ -34,7 +34,7 @@ public class Main {
             while ((s = reader.readLine()) != null)
                 writer.write(s + "\n");
 
-            writer.write("@a((a+0')*(a+0')=(a*a)+(0''*a)+0')->".replaceAll("a", stringA));
+            writer.write("@a((a+0')*(a+0')=(a*a)+(0''*a)+0')->");
             writer.write("((a+0')*(a+0')=(a*a)+(0''*a)+0')\n".replaceAll("a", stringA));
             writer.write("((a+0')*(a+0')=(a*a)+(0''*a)+0')".replaceAll("a", stringA));
             writer.close();
